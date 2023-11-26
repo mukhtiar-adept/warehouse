@@ -1,0 +1,9 @@
+databaseChangeLog:
+    - changeSet:
+          id: 001-MA
+          author: Mukhtiar Ahmed
+          changes:
+              - sqlFile:
+                    path: db/changelog/sql/001-MA-initial-check.sql
+                    splitStatements: true
+
